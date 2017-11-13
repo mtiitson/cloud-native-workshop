@@ -1,0 +1,12 @@
+language: java
+before_script: cd 12f_app
+script: mvn clean install
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: mattias.tiitson@gmail.com
+  api: https://api.run.pivotal.io
+  organization: mattias.tiitson-org
+  space: devel
+dd:
+  secure: yJT0Wn1uRExCM0fTwTPH31Di1SAsn6Yc0V9W614Pr1NTVBMbvrk6RBYnbcmloc8dHuqhKBlPur0vsqllRuxFKoTvPcLpbcV7zsaHA3wjDS0yXZReGr6hq/XWYmrNHgP6po91WUzYvlpw3n/cdfjIFtS7Wa/4ScojbmubngrsYim5XXgclFOC+FMPdgxLrrNEhI4TWtyZksmJVqDJemToYBvgEBWsPcFFB8dCiQ1+m8BiCt20SIJQnoiWm/XyqlJJqTsO3AvyMM6Iq8bFSqh/VlYzsHJsuE+2NDFRgBASqHR84b2Y3zFb0P7eodwZBJIb/9yEKRENlq7B5faCCstgZX8kDeD4HZOhT1AnJYQ8egNjKGcDuL1AnO+mOMdeD9J3od8GKwTESRp3PBRnQQlcvyX4N+IPP+UYl0ofGY/F/BV+OF80IPZHcnKbPmkj2atLlqcEyKw1dKHrFE2Nnz21cEFJVjmeQR9IMv4UB/8spKvzbmi1BkRIf83g1+ikjTYRfIVjFWH/S0p0YK9gRcKpcwoqxmrNGMGv1h8ucrsBxstIC+HMmlOEIBqeKFsL4k4mxSJYjpOIC4JctID4a/vyo1AxI9Fg89bL4QLs6R/9iEVjNdZK8zi2MBLmBima8yXsPWie1SIgZUFr7dAQGTfuTuQ4f+Y+mE+yh6WUlmdLnt0=
