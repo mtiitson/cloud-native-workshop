@@ -7,6 +7,6 @@ deploy:
   username: mattias.tiitson@gmail.com
   api: https://api.run.pivotal.io
   organization: mattias.tiitson-org
-  space: devel
+  space: development
   password:
     secure: EJiZ11LKvKWNFlATIGCqLKl2PD6g/LnFt57haWllifVp7MsgCoGWNBau6JqgQGIxydrpZL/WfMebuXGYu0NZH6iI+ExhWHsh74z/oadJNCyi2W+zmDrp0Q1qY8GLeJmRcFuk8bo2p+sFWwIW2gM0ILX4+7NL9liArerP+cMIc08cu2cUYT0klnGYq4+pCeuhazM2xTh9czLIXYNyIQO5pQnrFASuwLxJhTnU+Y0r7leSl+PK/BpYojLfwYlDaDAYrKAwyS0IHQAgLuW6r7tb6pnrSunMuX/CtkTCuTsur8c8MNVrGU8IuiAQ+rF6359pLNU0VPDWoRrULsdy+jftoti07t55TSZQM4rxxsL1JJh7PHnaashuD1elJZq4hlI58ooxZ/Adm3fs6Q5iRTYsynUVJsgdtajajwiOukPr1NS5V2X7DJ8dqKruqfY/53kUShmycpDVOdc34u/mJz6+kiq15FKLnrjmzqWoU/8AO5xFGAOcZkz0mg4o3Opo5IDk2PewQ3qk9rKCn8GhUdYMUQzdJyjj08bNnbOdO4K+ZUdjC0rO+84/0l0Zrv7SyTbYpu5T6Ed7xVOGIRuruuIJJOazTbnQXtVKYkw6wm8l7QFdjhPhM/acNfN5dEt6nT5LKBWlmR5G42l2IdIiRRPEMNric2AjYkeBRuL68DzB/hM=
